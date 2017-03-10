@@ -1,0 +1,120 @@
+/**************
+General
+**************/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'News Cycle', Georgia, sans-serif;
+  color: #ff6;
+  font-size: 16px;
+  background: #181818;
+}
+
+.center, 
+.personContainer{
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.center {
+  cursor: pointer;
+}
+
+.deathStarWrapper {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: -20px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.deathStar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #808080;
+  position: absolute;
+}
+
+.weapon {
+  position: relative;
+  background: #a9a9a9;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 35px;
+  left: 110px;
+
+  -webkit-transition: background-color 3.4s;
+  -webkit-transition: background-color 3.4s;
+  transition: background-color 3.4s;
+}
+
+.change {
+  background: rgba(46, 232, 153, 1);
+}
+
+.band {
+  position: relative;
+  top: 50px;
+  background: #000;
+  height: 2px;
+  width: 200px;
+}
+
+.personContainer {
+  text-align: center;
+}
+
+.mainWrapper {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.notFound {
+  color: firebrick;
+}
+
+@media only screen and (max-width: 800px) {
+  .deathStarWrapper {
+    width: 100px;
+    margin: 10px auto 0 auto;
+  }
+
+  .deathStar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .weapon {
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    left: 65px;
+  }
+
+  .band {
+    top: 30px;
+    height: 1px;
+    width: 100px;
+  }
+
+  .personContainer {
+    position: relative;
+    top: 75px;
+    font-size: 1.3em;
+  }
+
+  .center {
+    font-size: 1.2em;
+  }
+
+  .mainWrapper {
+    margin-top: 0;
+  }
+}
