@@ -1,6 +1,6 @@
-#May the Force
+# May the Force
 
-This is an application that uses SWAPI (the Star Wars API) to provide users with people from the canonical universe of Star Wars. 
+This is an application that uses SWAPI (the Star Wars API) to provide users with characters from the canonical universe of Star Wars. 
 
 Do the following to run:
   1. Verify that NPM is installed on your machine by running `npm -v`.
